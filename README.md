@@ -1,2 +1,2 @@
-1) run npm install 
+1) npm install 
 2) ng serve -o
