@@ -1,0 +1,76 @@
+<div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-12">
+          <img style='float:left;width:160px;height:168px; margin-right:10px;'
+               src="../../../assets/img/facebookUnknown.jpg"/>
+          <table class="h-25 border border-dark w-75 table table-borderless">
+
+            <tr>
+              <td><label class="font-weight-bold">Market</label></td>
+              <td>Fill in who are your customers</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="font-weight-bold">Pain</div>
+              </td>
+              <td>What is the pain statement that you are trying to solve for them ?</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="font-weight-bold">benefit</div>
+              </td>
+              <td>
+                What is the benefit that will match that pain statement ?
+                <button class="float-right btn btn-default">Edit Profile</button>
+              </td>
+            </tr>
+
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-3">
+    <p><span class="blockquote">How is</span> <span class="font-weight-bold">VenturX  <i
+      class="fa fa-pencil"></i></span> <span class="blockquote">doing today?</span>
+      <small class="text-muted">Check dashboard</small>
+    </p>
+  </div>
+  <div class="text-center mt-5">
+    <ngx-gauge type="full"
+               [value]="first_gaugeValue"
+               [label]="first_gaugeLabel"
+               [append]="first_gaugeAppendText">
+    </ngx-gauge>
+
+    <ngx-gauge type="full"
+               [value]="second_gaugeValue"
+               [label]="second_gaugeLabel"
+               [append]="second_gaugeAppendText">
+    </ngx-gauge>
+
+    <ngx-gauge type="full"
+               [value]="third_gaugeValue"
+               [label]="third_gaugeLabel"
+               [append]="third_gaugeAppendText">
+    </ngx-gauge>
+
+    <ngx-gauge type="full"
+               [value]="forth_gaugeValue"
+               [label]="forth_gaugeLabel"
+               [append]="forth_gaugeAppendText">
+    </ngx-gauge>
+
+  </div>
+  <div class="container mt-5">
+    <div class="alert alert-dismissible alert-warning">
+      <span class=" font-weight-bold">small conversion </span>Learn what you can do to <span class="font-weight-bold">rise your conversion </span>
+    </div>
+    <div class="alert alert-dismissible alert-danger">
+      Low product score <span class="font-weight-bold">try this </span>to get more
+    </div>
+  </div>
+</div>
